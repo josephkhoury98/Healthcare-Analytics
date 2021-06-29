@@ -20,7 +20,7 @@ bodyfat = pd.read_csv('bodyfat.csv')
 bodyfat.info()
 print(bodyfat.head())
 
-countries_weight = pd.read_csv ('Countries_fat.csv', encoding = 'latin-1')
+countries_weight = pd.read_csv ('https://raw.githubusercontent.com/josephkhoury98/Healthcare-Analytics/main/Countries_fat.csv', encoding = 'latin-1')
 #print(countries_weight.head())
 countries_weight.info()
 st.set_page_config(layout="wide")
