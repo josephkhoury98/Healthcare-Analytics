@@ -16,7 +16,7 @@ import plotly.graph_objs as go
 from plotly.offline import init_notebook_mode,iplot,plot
 init_notebook_mode(connected=True)
 
-bodyfat = pd.read_csv('bodyfat.csv')
+bodyfat = pd.read_csv('https://raw.githubusercontent.com/josephkhoury98/Healthcare-Analytics/main/bodyfat.csv')
 bodyfat.info()
 print(bodyfat.head())
 
