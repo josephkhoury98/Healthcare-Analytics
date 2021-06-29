@@ -4,10 +4,6 @@ import plotly.express as px
 import numpy as np
 import plotly.graph_objs as go
 from plotly.offline import iplot,plot
-from bokeh.plotting import figure
-from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar
-from bokeh.palettes import brewer
-import json
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split, cross_val_score
