@@ -177,7 +177,7 @@ elif page == 'Body Fat & Prediction':
     col1.write('')
     col1.write('')
     col1.write('')
-    col1.markdown(f"<h4 style='text-align:left; font-family:arial;' >{'Choose whether you want to visualize Bodyfat vs Weight or vs Height'}</h4>", unsafe_allow_html=True)
+    col1.markdown(f"<h4 style='text-align:left; font-family:arial;' >{'Choose whether you want to visualize Body Fat vs Weight or vs Height'}</h4>", unsafe_allow_html=True)
 
 
     chart = col1.selectbox('',['Weight','Height'])
