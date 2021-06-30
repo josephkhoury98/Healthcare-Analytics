@@ -237,19 +237,19 @@ elif page == 'Body Fat & Prediction':
         st.success('With an accuracy of 80%, your body fat percentage is: {}%'.format(bodyfat_percentage))
         st.success('Your BMI is {}'.format(BMI))
         if bodyfat_percentage <= 10:
-            st.subheader('Classification:')
+            st.subheader('Classification based on your body fat percentage:')
             st.write('Essential Fat')
         elif bodyfat_percentage<=14:
-            st.subheader('Classification:')
+            st.subheader('Classification based on your body fat percentage:')
             st.write('Athletes')
         elif bodyfat_percentage<=21:
-            st.subheader('Classification:')
+            st.subheader('Classification based on your body fat percentage:')
             st.write('Fitness')
         elif bodyfat_percentage<=25:
-            st.subheader('Classification:')
+            st.subheader('Classification based on your body fat percentage:')
             st.write('Average')
         elif bodyfat_percentage> 25:
-            st.subheader('Classification:')
+            st.subheader('Classification based on your body fat percentage:')
             st.write('Obese')        
 
 footer= """<style>
