@@ -157,7 +157,7 @@ elif page == 'Body Fat & Prediction':
             """
     html_title_sec4= """
             <div style="background-color:steelblue;padding:0px">
-            <h2 style="color:white;text-align:center;"> Predictions of Body Fat Percentage </h2>
+            <h2 style="color:white;text-align:center;"> Prediction of Body Fat Percentage </h2>
             </div>
             """
 
