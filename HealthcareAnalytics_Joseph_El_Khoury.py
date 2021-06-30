@@ -236,6 +236,21 @@ elif page == 'Body Fat & Prediction':
         Chest_input_float, Abdomen_input_float, Hip_input_float, Thigh_input_float, Knee_input_float, Ankle_input_float, Biceps_input_float, Forearm_input_float, Wrist_input_float)
         st.success('With an accuracy of 80%, your body fat percentage is: {}%'.format(bodyfat_percentage))
         st.success('Your BMI is {}'.format(BMI))
+        if bodyfat_percentage <= 10:
+            st.write('Classification:')
+            st.write('Essential Fat')
+        elif bodyfat_percentage<=14:
+            st.write('Classification:')
+            st.write('Athletes')
+        elif bodyfat_percentage<=21:
+            st.write('Classification:')
+            st.write('Fitness')
+        elif bodyfat_percentage<=25:
+            st.write('Classification:')
+            st.write('Average')
+        elif bodyfat_percentage> 25:
+            st.write('Classification:')
+            st.write('Obese')        
 
 footer= """<style>
 a:link , a:visited{
